@@ -1,0 +1,31 @@
+.image-slider {
+    position: relative;
+  }
+  
+  .image-slider img {
+    display: block;
+    max-width: 100%;
+  }
+  
+  .image-slider img:first-child {
+    display: block;
+  }
+  
+  .color-selector {
+    display: flex;
+  }
+  
+  .color-selector button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+  
+  .color-selector button.selected {
+    border: 2px solid black;
+  }
+
+  .color-selector button:hover {
+    border-radius: 0;
+  }
