@@ -2,7 +2,7 @@ import ProductDetails from "./components/ProductDetails";
 
 
 const product = {
-    title: 'Classic Cotton T-Shirt',
+    title: 'Classic Cotton Tank Top',
     images: ['redT.png', 'greenT.png', 'blueT.png'],
     colors: ['#FF0000', '#00FF00', '#0000FF'],
     sizes: ['S', 'M', 'L', 'XL'],
